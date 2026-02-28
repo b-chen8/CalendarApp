@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "Suivi des symptômes",
+    "tagline": "Suivez vos symptômes • Voyez les tendances • Partagez avec votre équipe soignante"
+  },
+  "nav": {
+    "calendar": "Calendrier",
+    "newNote": "Nouvelle note",
+    "trends": "Tendances",
+    "allNotes": "Toutes les notes"
+  },
+  "calendar": {
+    "prevMonth": "Mois précédent",
+    "nextMonth": "Mois suivant",
+    "mild": "Léger",
+    "moderate": "Modéré",
+    "severe": "Sévère",
+    "notesCount": "{{count}} note(s)",
+    "symptomNotesCount": "{{count}} note(s) de symptôme(s)"
+  },
+  "newNote": {
+    "title": "Nouvelle note de symptôme",
+    "description": "Notez comment vous vous sentez, ce qui a aidé et tout traitement ou effet secondaire. Cela facilite la détection des tendances et le partage avec votre équipe soignante.",
+    "symptom": "Symptôme",
+    "date": "Date",
+    "severity": "Sévérité (1–10)",
+    "affecting": "Comment cela vous affecte",
+    "remedies": "Remèdes qui ont aidé",
+    "treatment": "Traitement ou médicament (optionnel)",
+    "sideEffects": "Effets secondaires (optionnel)",
+    "save": "Enregistrer la note",
+    "saved": "Note enregistrée. Ajoutez-en une autre ou allez au Calendrier / Tendances.",
+    "viewCalendar": "Voir le calendrier",
+    "placeholders": {
+      "symptom": "ex. Mal de tête, fatigue, douleur articulaire",
+      "affecting": "Décrivez la sensation du symptôme et son impact sur votre journée...",
+      "remedies": "Qu'est-ce qui a aidé ? Repos, médicament, chaleur, etc.",
+      "treatment": "ex. Ibuprofène 400 mg, kinésithérapie",
+      "sideEffects": "Effets secondaires du traitement à partager avec votre médecin"
+    },
+    "severityLabels": {
+      "1": "Minimal",
+      "2": "Très léger",
+      "3": "Léger",
+      "4": "Modéré-léger",
+      "5": "Modéré",
+      "6": "Modéré-fort",
+      "7": "Fort",
+      "8": "Très fort",
+      "9": "Sévère",
+      "10": "Le pire possible"
+    }
+  },
+  "trends": {
+    "title": "Tendances des symptômes",
+    "description": "Voyez comment un symptôme évolue dans le temps. Utilisez cela pour repérer des schémas récurrents, vérifier si le traitement aide et préparer des données pour votre médecin.",
+    "chooseSymptom": "Choisir un symptôme",
+    "selectSymptom": "— Sélectionnez un symptôme —",
+    "emptyNoNotes": "Pas encore de notes de symptômes. Ajoutez des notes dans « Nouvelle note » pour voir les tendances ici.",
+    "emptyNoData": "Pas encore de données pour « {{symptom}} ». Ajoutez des notes avec ce symptôme.",
+    "emptyNeedMore": "Ajoutez au moins une note pour « {{symptom}} » pour voir la courbe de tendance.",
+    "recentEntries": "Entrées récentes pour « {{symptom}} »",
+    "severity": "Sévérité",
+    "remedies": "Remèdes",
+    "treatment": "Traitement"
+  },
+  "notes": {
+    "title": "Toutes les notes",
+    "description": "Parcourez et filtrez vos notes de symptômes. Utilisez cela pour trouver quand un symptôme a commencé ou revoir ce que vous avez essayé.",
+    "filterBy": "Filtrer par symptôme",
+    "sortBy": "Trier par",
+    "allSymptoms": "Tous les symptômes",
+    "newestFirst": "Plus récentes d'abord",
+    "oldestFirst": "Plus anciennes d'abord",
+    "severityHighFirst": "Sévérité (élevée d'abord)",
+    "empty": "Aucune note ne correspond. Ajoutez des notes dans « Nouvelle note » ou changez le filtre.",
+    "remedies": "Remèdes",
+    "treatment": "Traitement",
+    "sideEffects": "Effets secondaires",
+    "delete": "Supprimer"
+  },
+  "modal": {
+    "close": "Fermer",
+    "noNotes": "Aucune note de symptôme pour ce jour.",
+    "severity": "Sévérité",
+    "remedies": "Remèdes",
+    "treatmentMedication": "Traitement/médicament",
+    "sideEffects": "Effets secondaires",
+    "deleteNote": "Supprimer la note"
+  }
+}

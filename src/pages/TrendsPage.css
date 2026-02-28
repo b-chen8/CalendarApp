@@ -1,0 +1,75 @@
+.trends-page {
+  padding: 0.25rem 0;
+}
+
+.trends-page .page-title {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.25rem;
+}
+
+.trends-page .page-desc {
+  margin: 0 0 1.25rem 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.trends-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1.25rem;
+}
+
+.trends-picker span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.trends-picker select {
+  padding: 0.6rem 0.75rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: 0.95rem;
+  max-width: 280px;
+}
+
+.chart-wrap {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.trends-notes-list {
+  margin-top: 1rem;
+}
+
+.trends-notes-list h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.trends-notes-list ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.trends-notes-list li {
+  margin-bottom: 0.35rem;
+}
+
+.trends-notes-list .remedy,
+.trends-notes-list .treatment {
+  color: var(--text);
+}
+
+.empty-state {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin: 0;
+}

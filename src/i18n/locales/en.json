@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "Symptom Tracker",
+    "tagline": "Track symptoms • See trends • Share with your care team"
+  },
+  "nav": {
+    "calendar": "Calendar",
+    "newNote": "New note",
+    "trends": "Trends",
+    "allNotes": "All notes"
+  },
+  "calendar": {
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "mild": "Mild",
+    "moderate": "Moderate",
+    "severe": "Severe",
+    "notesCount": "{{count}} note(s)",
+    "symptomNotesCount": "{{count}} symptom note(s)"
+  },
+  "newNote": {
+    "title": "New symptom note",
+    "description": "Log how you're feeling, what helped, and any treatments or side effects. This makes it easier to spot patterns and share with your care team.",
+    "symptom": "Symptom",
+    "date": "Date",
+    "severity": "Severity (1–10)",
+    "affecting": "How it's affecting you",
+    "remedies": "Remedies that helped",
+    "treatment": "Treatment or medication (optional)",
+    "sideEffects": "Side effects (optional)",
+    "save": "Save note",
+    "saved": "Note saved. Add another or go to Calendar / Trends.",
+    "viewCalendar": "View calendar",
+    "placeholders": {
+      "symptom": "e.g. Headache, fatigue, joint pain",
+      "affecting": "Describe how the symptom feels and how it impacts your day...",
+      "remedies": "What made it better? Rest, medication, heat, etc.",
+      "treatment": "e.g. Ibuprofen 400mg, physical therapy",
+      "sideEffects": "Any side effects from treatment to share with your provider"
+    },
+    "severityLabels": {
+      "1": "Minimal",
+      "2": "Very mild",
+      "3": "Mild",
+      "4": "Moderate–mild",
+      "5": "Moderate",
+      "6": "Moderate–strong",
+      "7": "Strong",
+      "8": "Very strong",
+      "9": "Severe",
+      "10": "Worst possible"
+    }
+  },
+  "trends": {
+    "title": "Symptom trends",
+    "description": "See how a symptom changes over time. Use this to spot recurring patterns, check if treatment is helping, and prepare data to share with your healthcare provider.",
+    "chooseSymptom": "Choose symptom",
+    "selectSymptom": "— Select a symptom —",
+    "emptyNoNotes": "No symptom notes yet. Add notes from the \"New note\" tab to see trends here.",
+    "emptyNoData": "No data points yet for \"{{symptom}}\". Add more notes with this symptom.",
+    "emptyNeedMore": "Add at least one more note for \"{{symptom}}\" to see a trend line.",
+    "recentEntries": "Recent entries for \"{{symptom}}\"",
+    "severity": "Severity",
+    "remedies": "Remedies",
+    "treatment": "Treatment"
+  },
+  "notes": {
+    "title": "All notes",
+    "description": "Browse and filter your symptom notes. Use this to find when a symptom started or to review what you've tried.",
+    "filterBy": "Filter by symptom",
+    "sortBy": "Sort by",
+    "allSymptoms": "All symptoms",
+    "newestFirst": "Newest first",
+    "oldestFirst": "Oldest first",
+    "severityHighFirst": "Severity (high first)",
+    "empty": "No notes match. Add notes from \"New note\" or change the filter.",
+    "remedies": "Remedies",
+    "treatment": "Treatment",
+    "sideEffects": "Side effects",
+    "delete": "Delete"
+  },
+  "modal": {
+    "close": "Close",
+    "noNotes": "No symptom notes for this day.",
+    "severity": "Severity",
+    "remedies": "Remedies",
+    "treatmentMedication": "Treatment/medication",
+    "sideEffects": "Side effects",
+    "deleteNote": "Delete note"
+  }
+}

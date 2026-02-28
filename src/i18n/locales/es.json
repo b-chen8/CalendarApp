@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "Seguimiento de síntomas",
+    "tagline": "Registra síntomas • Ver tendencias • Comparte con tu equipo de salud"
+  },
+  "nav": {
+    "calendar": "Calendario",
+    "newNote": "Nueva nota",
+    "trends": "Tendencias",
+    "allNotes": "Todas las notas"
+  },
+  "calendar": {
+    "prevMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "mild": "Leve",
+    "moderate": "Moderado",
+    "severe": "Severo",
+    "notesCount": "{{count}} nota(s)",
+    "symptomNotesCount": "{{count}} nota(s) de síntomas"
+  },
+  "newNote": {
+    "title": "Nueva nota de síntoma",
+    "description": "Registra cómo te sientes, qué te ayudó y cualquier tratamiento o efecto secundario. Así es más fácil ver patrones y compartir con tu equipo de salud.",
+    "symptom": "Síntoma",
+    "date": "Fecha",
+    "severity": "Gravedad (1–10)",
+    "affecting": "Cómo te afecta",
+    "remedies": "Remedios que ayudaron",
+    "treatment": "Tratamiento o medicación (opcional)",
+    "sideEffects": "Efectos secundarios (opcional)",
+    "save": "Guardar nota",
+    "saved": "Nota guardada. Añade otra o ve a Calendario / Tendencias.",
+    "viewCalendar": "Ver calendario",
+    "placeholders": {
+      "symptom": "ej. Dolor de cabeza, fatiga, dolor articular",
+      "affecting": "Describe cómo se siente el síntoma y cómo afecta tu día...",
+      "remedies": "¿Qué te alivió? Descanso, medicación, calor, etc.",
+      "treatment": "ej. Ibuprofeno 400 mg, fisioterapia",
+      "sideEffects": "Efectos secundarios del tratamiento para compartir con tu médico"
+    },
+    "severityLabels": {
+      "1": "Mínimo",
+      "2": "Muy leve",
+      "3": "Leve",
+      "4": "Moderado-leve",
+      "5": "Moderado",
+      "6": "Moderado-fuerte",
+      "7": "Fuerte",
+      "8": "Muy fuerte",
+      "9": "Severo",
+      "10": "Lo peor posible"
+    }
+  },
+  "trends": {
+    "title": "Tendencias de síntomas",
+    "description": "Mira cómo cambia un síntoma en el tiempo. Úsalo para detectar patrones, ver si el tratamiento ayuda y preparar datos para tu médico.",
+    "chooseSymptom": "Elegir síntoma",
+    "selectSymptom": "— Selecciona un síntoma —",
+    "emptyNoNotes": "Aún no hay notas de síntomas. Añade notas en \"Nueva nota\" para ver tendencias aquí.",
+    "emptyNoData": "Aún no hay datos para \"{{symptom}}\". Añade más notas con este síntoma.",
+    "emptyNeedMore": "Añade al menos una nota más para \"{{symptom}}\" para ver la línea de tendencia.",
+    "recentEntries": "Entradas recientes de \"{{symptom}}\"",
+    "severity": "Gravedad",
+    "remedies": "Remedios",
+    "treatment": "Tratamiento"
+  },
+  "notes": {
+    "title": "Todas las notas",
+    "description": "Explora y filtra tus notas de síntomas. Úsalo para ver cuándo empezó un síntoma o repasar lo que has probado.",
+    "filterBy": "Filtrar por síntoma",
+    "sortBy": "Ordenar por",
+    "allSymptoms": "Todos los síntomas",
+    "newestFirst": "Más recientes primero",
+    "oldestFirst": "Más antiguas primero",
+    "severityHighFirst": "Gravedad (mayor primero)",
+    "empty": "Ninguna nota coincide. Añade notas en \"Nueva nota\" o cambia el filtro.",
+    "remedies": "Remedios",
+    "treatment": "Tratamiento",
+    "sideEffects": "Efectos secundarios",
+    "delete": "Eliminar"
+  },
+  "modal": {
+    "close": "Cerrar",
+    "noNotes": "No hay notas de síntomas para este día.",
+    "severity": "Gravedad",
+    "remedies": "Remedios",
+    "treatmentMedication": "Tratamiento/medicación",
+    "sideEffects": "Efectos secundarios",
+    "deleteNote": "Eliminar nota"
+  }
+}
