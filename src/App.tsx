@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 import { useTranslation } from 'react-i18next';
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { Routes, Route, NavLink } from 'react-router-dom';
 import { useNotes } from './hooks/useNotes';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 import { CalendarPage } from './pages/CalendarPage';
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <NotesContext.Provider value={notesContext}>
-      <BrowserRouter>
+      <>
         <div className="app">
           <header className="app-header">
             <div className="app-header-top">
@@ -49,7 +49,7 @@ function App() {
             </Routes>
           </main>
         </div>
-      </BrowserRouter>
+      </>
     </NotesContext.Provider>
   );
 }
